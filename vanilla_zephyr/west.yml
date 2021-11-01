@@ -14,7 +14,7 @@ manifest:
 
   projects:
     - name: zephyr
-      revision: 9a687c2771d4ad3d97ae720b9999197ec722d5aa
+      revision: pull/39382/head
 
   # West-related configuration for the nrf repository.
   self:
