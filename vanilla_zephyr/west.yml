@@ -1,0 +1,21 @@
+# The west manifest file importing vanilla Zephyr.
+
+manifest:
+  version: "0.10"
+
+  remotes:
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+
+  # If not otherwise specified, the projects below should be obtained
+  # from the ncs remote.
+  defaults:
+    remote: zephyrproject
+
+  projects:
+    - name: zephyr
+      revision: 9a687c2771d4ad3d97ae720b9999197ec722d5aa
+
+  # West-related configuration for the nrf repository.
+  self:
+    path: multi_manifest_repo/vanilla_zephyr
